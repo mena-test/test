@@ -1,0 +1,74 @@
+body {
+    text-align: right;
+    font-family: 'Almarai', sans-serif
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: 0.5rem
+}
+
+#phone-icon {
+    margin-right: -4px
+}
+
+#bag-count {
+    right: -7px
+}
+
+@media (max-width: 575.98px) {
+    #nav-logo {
+        position:relative;
+        left: -15px
+    }
+}
+
+#logo {
+    right: unset;
+    left: 10px
+}
+
+a#profile-edit-link {
+    left: unset;
+    right: 1em
+}
+
+.new-item-actions {
+    text-align: left
+}
+
+#new-items h1 {
+    border-left: unset;
+    padding-left: unset;
+    border-right: 5px solid #cd5631;
+    padding-right: 5px
+}
+
+@media (min-width: 500px) {
+    #profile-orders .card:not(:last-child) {
+        margin-left:20px
+    }
+}
+
+@media (min-width: 700px) {
+    #profile-orders .card:not(:last-child) {
+        margin-left:30px
+    }
+}
+
+@media (min-width: 1100px) {
+    #profile-orders .card:not(:last-child) {
+        margin-left:40px
+    }
+}
+
+input#customer_email,input#customer_password,input#employee_username,input#employee_password {
+    direction: ltr
+}
+
+input#customer_email::-moz-placeholder,input#customer_password::-moz-placeholder,input#employee_username::-moz-placeholder,input#employee_password::-moz-placeholder {
+    text-align: right
+}
+
+input#customer_email::placeholder,input#customer_password::placeholder,input#employee_username::placeholder,input#employee_password::placeholder {
+    text-align: right
+}
